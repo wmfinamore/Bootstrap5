@@ -41,3 +41,11 @@ h1 {
 .btn-primary {
     background-color: chocolate;
 }
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
