@@ -1,0 +1,29 @@
+.container {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.row {
+    border: 2px solid blue;
+    height: auto;
+}
+
+.col {
+    border: 2px dashed red;
+    padding: 5px;
+    margin: 0;
+}
+
+.order-1,
+.order-3,
+.order-5,
+.order-7 {
+    background-color: aqua;
+}
+
+.order-2,
+.order-4,
+.order-6,
+.order-8 {
+    background-color: gold;
+}
