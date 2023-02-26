@@ -10,6 +10,24 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!-- Criando form -->
+    <div class="col-4 m-4">
+        <h2>Formulário de Registro</h2>
+        <form>
+            <div class="mb-4">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" 
+                aria-describedby="emailHelp" placeholder="Insira seu e-mail">
+                <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail.</div>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label">Senha: </label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Digite a sua senha">
+            </div>
+            <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+
+    </div>
 </body>
 </html>
