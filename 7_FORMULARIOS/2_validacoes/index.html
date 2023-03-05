@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validações</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script> 
+    <!-- atributo defer faz com que o código JS seja execuatdo depois de todo o html ser carregado -->
+</head>
+<body>
+    <!-- Validação bootstrap -->
+    <div class="container">
+        <div class="row justify-content-center m-4">
+            <div class="col-6">
+                <h2>Faça o login para continuar:</h2>
+                <form class="row needs-validation" novalidate>
+                    <div class="col-12 mb-4">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite o seu e-mail" required>
+                        <div class="valid-feedback">
+                            OK
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="password" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Digite a sua senha" required>
+                        <div class="valid-feedback">
+                            OK
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
