@@ -54,7 +54,8 @@ body {
     color: #222;
 }
 
-#form-container input[type="submit"] {
+#form-container input[type="submit"],
+#form-container input[type="checkbox"]:checked {
     background-color: #6c63FF;
     border-color: #6c63FF;
 }
