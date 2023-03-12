@@ -15,103 +15,142 @@
 </head>
 <body>
     <!-- Accordion -->
-    <div class="col-4 m-4">
-        <h2>Accordion</h2>
-        <div class="accordion" id="accordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button 
-                        class="accordion-button" 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        >
-                        Item 1
-                    </button>
-                </h2>
-                <div 
-                    class="accordion-collapse collapse show" 
-                    id="collapseOne" 
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordion"
-                    >
-                    <div class="accordion-body">
-                        <p>Este é o item 1</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                    <button 
-                        class="accordion-button" 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#collapseFour"
-                        aria-expanded="true"
-                        >
-                        Item 4
-                    </button>
-                </h2>
-                <div 
-                    class="accordion-collapse collapse show" 
-                    id="collapseFour" 
-                    aria-labelledby="headingFour"
-                    data-bs-parent="#accordion"
-                    >
-                    <div class="accordion-body">
-                        <p>Este é o item 4</p>
-                    </div>
-                </div>
+    <div class="row">
+        <div class="col-4 m-4">
+            <h2>Accordion</h2>
+            <div class="accordion" id="accordion">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="accordion-header" id="headingOne">
                         <button 
                             class="accordion-button" 
                             type="button" 
                             data-bs-toggle="collapse" 
-                            data-bs-target="#collapseThree"
+                            data-bs-target="#collapseOne"
                             aria-expanded="true"
                             >
-                            Item 3
+                            Item 1
                         </button>
                     </h2>
                     <div 
                         class="accordion-collapse collapse show" 
-                        id="collapseThree" 
-                        aria-labelledby="headingThree"
+                        id="collapseOne" 
+                        aria-labelledby="headingOne"
                         data-bs-parent="#accordion"
                         >
                         <div class="accordion-body">
-                            <p>Este é o item 3</p>
+                            <p>Este é o item 1</p>
                         </div>
                     </div>
     
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
+                    <h2 class="accordion-header" id="headingFour">
                         <button 
                             class="accordion-button" 
                             type="button" 
                             data-bs-toggle="collapse" 
-                            data-bs-target="#collapseTwo"
+                            data-bs-target="#collapseFour"
                             aria-expanded="true"
                             >
-                            Item 2
+                            Item 4
                         </button>
                     </h2>
                     <div 
                         class="accordion-collapse collapse show" 
-                        id="collapseTwo" 
-                        aria-labelledby="headingTwo"
+                        id="collapseFour" 
+                        aria-labelledby="headingFour"
                         data-bs-parent="#accordion"
                         >
                         <div class="accordion-body">
-                            <p>Este é o item 2</p>
+                            <p>Este é o item 4</p>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button 
+                                class="accordion-button" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#collapseThree"
+                                aria-expanded="true"
+                                >
+                                Item 3
+                            </button>
+                        </h2>
+                        <div 
+                            class="accordion-collapse collapse show" 
+                            id="collapseThree" 
+                            aria-labelledby="headingThree"
+                            data-bs-parent="#accordion"
+                            >
+                            <div class="accordion-body">
+                                <p>Este é o item 3</p>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button 
+                                class="accordion-button" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="true"
+                                >
+                                Item 2
+                            </button>
+                        </h2>
+                        <div 
+                            class="accordion-collapse collapse show" 
+                            id="collapseTwo" 
+                            aria-labelledby="headingTwo"
+                            data-bs-parent="#accordion"
+                            >
+                            <div class="accordion-body">
+                                <p>Este é o item 2</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+    <!-- Alertas -->
+    <div class="row">
+        <div class="col-6 m-4">
+            <div class="alert alert-primary" role="alert">
+                Esta é uma mensagem comum do sistema
+            </div>
+            <div class="alert alert-success" role="alert">
+                Usuário cadastrado com sucesso
+            </div>
+            <div class="alert alert-danger" role="alert">
+                Não foi possível fazer o login!
+            </div>
+    
+            <!-- com link -->
+            <div class="alert alert-warning" role="alert">
+                Não encontramos o seu pedido, faça uma solicitação <a href="#" class="alert-link">clicando aqui</a>. Responderemos o quanto antes.
+            </div>
+    
+            <!-- com mais conteúdo -->
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Pedido realizado!</h4>
+                <p>Recebemos o seu pedido, e já estamos preparando o envio</p>
+                <hr>
+                <p class="mb-0">Caso você precise de mais algum informação entre em contato <a href="" class="alert-link">clicando aqui</a></p>
+            </div>
+
+            <!-- Com ícone de fechar -->
+            <div class="alert alert-warning alert-dismissible fade show">
+                <strong>Ops!</strong> Aconteceu algo errado no sistema
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+
+                </button>
             </div>
         </div>
     </div>
+
 </body>
 </html>
