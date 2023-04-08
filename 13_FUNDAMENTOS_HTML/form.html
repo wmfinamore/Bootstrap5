@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="envio.php" method="GET">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome">
+
+            <!-- break row -->
+            <br>
+            <input type="checkbox" name="temcarro"> Eu tenho um carro
+            <br>
+            <label for="aniversario">Data de nascimento: </label>
+            <input type="date" name="aniversario">
+            <label for="M">Masculino</label>
+            <input type="radio" name="sexo" id="M" value="Masculino">
+            <label for="F">Feminino</label>
+            <input type="radio" name="sexo" id="F" value="Feminino">
+            <label for="O">Outros</label>
+            <input type="radio" name="sexo" id="O" value="Outro">
+            <br>
+            <label for="observacao">Observação: </label>
+            <textarea name="observacao" id="observacao" cols="10" rows="4"></textarea>
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
