@@ -61,3 +61,18 @@ div p {
     font-size: 40px;
 }
 
+/*Backgrounds*/
+.div-background {
+    background-image: url('img/por-do-sol.jpeg');
+    height: 300px;
+}
+
+.div-background h1 {
+    text-align: center;
+}
+
+.titulo-background {
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+}
