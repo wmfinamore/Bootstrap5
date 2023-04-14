@@ -163,3 +163,20 @@ div p {
     margin: 0;
 }
 
+/* Positions: */
+/* -static */
+/* -relative */
+/* -fixed */
+/* -absolute */
+/* -sticky */
+
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-bottom: 2px black dotted;
+}
+
+.static {
+    position: static;
+}
