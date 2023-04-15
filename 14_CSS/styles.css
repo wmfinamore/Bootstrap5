@@ -164,11 +164,11 @@ div p {
 }
 
 /* Positions: */
-/* -static */
-/* -relative */
-/* -fixed */
-/* -absolute */
-/* -sticky */
+/* -static: flow no HTML, não é alterado por top, left, right e bottom */
+/* -relative: flow no HTML, ela é alterada pelo top,left, right e bottom */
+/* -fixed: posiciona em qualquer lugar da tela, e é posicionada em relação ao HTML */
+/* -absolute: posiciona em qualquer lugar, e ela respeita o elemento antecessor */
+/* -sticky: esta no flow do HTML, porém ao passar o scroll ela funciona como fixed */
 
 .div-position {
     width: 500px;
