@@ -201,3 +201,11 @@ div p {
     top: 50px;
     left: 50px;
 }
+
+.fixed {
+    position: fixed;
+    height: 200px;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
