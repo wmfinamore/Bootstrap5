@@ -215,3 +215,26 @@ div p {
     background-color: gray;
     top: 0px;
 }
+
+/* FLOAT */
+.container {
+    padding: 50px;
+}
+
+.div-float {
+    overflow: auto; /*Ajusta a altura do elemento afetado pela movimentação das imagens usando flow*/
+}
+
+.img-float {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+    color: #000;
+}
